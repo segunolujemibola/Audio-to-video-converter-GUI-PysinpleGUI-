@@ -1,5 +1,8 @@
 import os
 import re
+
+os.environ["IMAGEIO_FFMPEG_EXE"] = "venv/bin/ffmpeg"
+
 from moviepy.editor import VideoFileClip, AudioFileClip
 
 
